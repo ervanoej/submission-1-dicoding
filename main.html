@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/main.css">
+	<title>FC Barcelona</title>
+</head>
+<body>
+<header class="navigasi">
+	<h1 class="name">FC Barcelona</h1>
+	<ul class="nav">
+		<li class="nav-link"><a href="#sejarah">Sejarah</a></li>
+		<li class="nav-link"><a href="#prestasi">Prestasi</a></li>
+		<li class="nav-link"><a href="#pemain">Pemain Terkenal</a></li>
+	</ul>
+</header>
+<div class="jumbotron">
+	<h1>Selamat datang!</h1>
+	<p>Melalui website ini akan dijelaskan secara singkat mengenai Futbol Club Barcelona.</p>
+</div>
+<main>
+	<table class="bgSelector">
+	<small style="color:white">Pilih warna background: </small>
+  <tr>
+    <td onclick="changeBg(this.style.backgroundColor)" 
+    style="background-color:#CDB599FF">
+    </td>
+    <td onclick="changeBg(this.style.backgroundColor)" 
+    style="background-color:#42EADDFF">
+    </td>
+    <td onclick="changeBg(this.style.backgroundColor)" 
+    style="background-color:#00203FFF">
+    </td>
+  </tr>
+</table>
+	<div id="content">
+		<article id="sejarah" class="card">
+			<h2> Sejarah </h2>
+			<img src="assets/img/sejarah.jpg" class="info-image">
+			<p class="explain">  Klub ini didirikan pada tahun 1899 oleh sekelompok pemain Swiss, Inggris dan Catalan yang dipimpin oleh Joan Gamper. FC Barcelona telah menjadi simbol budaya Catalan dan Catalanisme, yang mempunyai motto "Més que un club" (Lebih dari sebuah klub). Tidak seperti banyak klub sepak bola lainnya, FC Barcelona dimiliki dan dioperasikan oleh para pendukungnya. FC Barcelona adakahklub sepak bola kedua terkaya di dunia dalam hal pendapatan, dengan omzet tahunan sebesar €560,8 juta dan klub kedua dengan nilai paling berharga, senilai $3,56 miliar. Anthem resmi Barcelona adalah "Cant del Barça", yang ditulis oleh Jaume Picas dan Josep Maria Espinas. </p>
+		</article> 
+		<article id="prestasi" class="card">
+			<h2> Prestasi </h2>
+			<img src="assets/img/prestasi.jpg" class="info-image">
+			<p class="explain"> Hingga tahun 2020, Barcelona telah memenangkan 26 La Liga, 30 Copa del Rey, 13 Supercopa de España, 3 Copa Eva Duarte dan 2 piala Copa de la Liga, serta menjadi pemegang rekor untuk empat kompetisi terakhir. Juga mereka telah memenangkan 5 Liga Champions, rekor 4 Piala Winners UEFA, 5 Piala Super UEFA dan tiga rekor Piala Dunia Antarklub FIFA. Mereka juga memenangkan rekor 3 Piala Inter-Cities Fairs, dianggap pendahulu ke Piala UEFA/Liga Eropa.
+
+			Barcelona adalah satu-satunya klub Eropa telah memainkan sepak bola kontinental setiap musim sejak 1955, dan salah satu dari tiga klub tidak pernah terdegradasi dari La Liga, bersama dengan Athletic Bilbao dan Real Madrid. Pada tahun 2009, Barcelona menjadi klub pertama di Spanyol untuk memenangkan treble terdiri dari La Liga, Copa del Rey, dan Liga Champions. Pada tahun yang sama, juga menjadi klub sepak bola pertama yang memenangkan enam dari enam kompetisi dalam satu tahun, disebut juga sextuple, Terdiri treble tersebut dan Piala Super Spanyol, Piala Super UEFA dan Piala Dunia Antarklub FIFA. </p>
+		</article> 
+		<article id="pemain" class="card">
+			<h2> Pemain Terkenal </h2>
+			<img src="assets/img/pemain.jpg" class="info-image">
+			<p class="explain"> FC Barcelona terkenal dengan akademi sepakbolanya yang bernama "La Masia" yang telah menghasilkan pemain-pemain terbaik dunia, baik mereka yang bermain untuk FC Barcelona, maupun klub lain. Karena nama besarnya, banyak pemain top dunia yang juga pernah membela kesebelasan ini. Pemain-pemain terkenal yang pernah dan sedang bermain untuk FC Barcelona, antara lain: Lionel Messi, Andres Iniesta, Xavi Hernandez, Johan Cruyff, Diego Maradona. 
+		</p>
+		</article> 
+	</div>
+<aside>
+	<article class="profile card">
+         <header>
+             <h2>Informasi Penulis</h2>
+             <figure>
+                <img src="assets/img/profile-1.png" id="profile-img">
+                <figcaption><em>Klik untuk mengganti foto</em></figcaption>
+              </figure>
+         </header>
+         <section>
+		   <h3>Biodata</h3>
+		   <table>
+		      <tr>
+		         <th>Nama</th>
+		         <td>Ervano Junio</td>
+		      </tr>
+		      <tr>
+		         <th>Tempat, tanggal lahir</th>
+		         <td>Bogor, 24 Juni 1997</td>
+		      </tr>
+		      <tr>
+		         <th>Alamat</th>
+		         <td>Gang Pahala No.7, RT 003/08, Jakarta Selatan</td>
+		      </tr>
+		      <tr>
+		         <th>Nomor Handphone</th>
+		         <td>085155001645</td>
+		      </tr>
+		   </table>
+		</section>
+    </article>
+</aside>
+</main>
+<footer>
+ 	<p>Belajar Dasar Pemrograman Web &#169; 2020, Dicoding Academy Submission</p>
+ </footer>
+ <script src="assets/main.js"></script>
+</body>
+</html>

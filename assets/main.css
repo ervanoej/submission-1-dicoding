@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap');
+
+body {
+	font-family: 'Baloo Tamma 2', cursive;
+	margin: 0;
+	padding: 0;
+	background-color: #CDB599FF;
+}
+
+* {
+   box-sizing: border-box;
+   transition:all 0.2s ease-in-out;
+}
+
+main {
+   padding: 30px;
+   overflow: auto;
+}
+.bgSelector{
+	border: 1px solid black;
+  	width:150px;
+  	height:50px;
+}
+.navigasi {
+	width: 100%;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #FC766AFF;
+	color: #fff;
+	box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
+	position: fixed;
+ 	top: 0;
+}
+
+.name {
+	text-shadow: 1px 1px 3px #666666;
+}
+
+.jumbotron {
+   font-size: 20px;
+   padding: 60px;
+   background-color: #00a2c6;
+   text-align: center;
+   color: white;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-around;
+	width: 30%;
+
+}
+
+.nav li {
+	list-style: none;
+	margin: 0;
+
+}
+
+.nav a{
+	text-decoration: none;
+	color: white;
+	font-weight: 400;
+	font-size: 18px;
+	transition: font-size 0.25s;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+   transition: 1.0s;
+   overflow: auto;
+   background-color: #fff;
+}
+
+.card:hover {
+  box-shadow: 0 12px 24px 0 rgba(0,0,0,0.4);
+}
+
+.info-image {
+   width: 25%;
+   max-height: 300px;
+   border-radius: 8px;
+   float: left;
+}
+
+.explain {
+	text-indent: 2em;
+	text-align: justify;
+}
+
+#content {
+   float: left;
+   width: 75%;
+}
+
+aside {
+   float: right;
+   width: 25%;
+   padding-left: 20px;
+}
+.profile img {
+   width: 200px;
+   border-radius: 8px;
+}
+
+footer {   
+   padding: 10px;
+   color: white;
+   background-color: #5B84B1FF;
+   text-align: center;
+   font-weight: bold;
+}
+@media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+   }
+}
